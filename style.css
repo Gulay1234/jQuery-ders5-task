@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(24, 24, 24);
+    padding-top: 20px;
+    display: flex;
+}
+.item1{
+    width: 23vw;
+    height: 48vh;
+    background-color: white;
+    margin-left: 20px;
+    padding-top: 8px;
+}
+p{
+    text-align: center;
+    font-size: 11px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+}
+img{
+    width: 14vw;
+    height: 20vh;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.remove{
+    width: 6vw;
+    padding: 9px;
+    background-color: rgb(44, 44, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.item2{
+    width: 23vw;
+    height: 48vh;
+    background-color: white;
+    margin-left: 20px;
+    padding-top: 8px;
+}
+/* .add{
+    position: absolute;
+    margin-left: 670px;
+    width: 30vw;
+    height: 100vh;
+    background-color: lightblue;
+    margin-top: -20px;
+} */
+#add{
+    position: absolute;
+    margin-left: 895px;
+    padding: 6px;
+    border-radius: 3px;
+    margin-top: -456px;
+    font-size: 8px;
+    border: none;
+    background-color: rgb(67, 67, 255);
+    color: white;
+    width: 5vw;
+
+}
+.add-item{
+    right: 1px;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(252, 249, 247);
+    padding-top: 26px;
+    margin-top: -950px;
+    margin-left: 950px;
+}
+/* -473px */
+/* 767px */
+h4{
+   font-family: sans-serif;
+   margin-left: 10px;
+}
+label,input{
+    display: block;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+}
+label{
+    margin-top: 10px;
+}
+input{
+    margin-top: 5px;
+    width: 14vw;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 2px;
+}
+#search{
+    margin-top: 160px;
+    width: 15vw;
+    margin-left: 28px;
+    text-align: left;
+    border-radius: 3px;
+    padding: 4px;
+    background-color: yellow;
+    color: black;
+    border: 1px solid lightgray;
+}
+#button3{
+    width: 6vw;
+    padding: 6px;
+    font-size: 8px;
+    border-radius: 3px;
+    margin-left: 10px;
+    background-color: rgb(99, 195, 99);
+    border: none;
+    color: white;
+    margin-top: 5px;
+}
